@@ -253,7 +253,7 @@ i will like to thanks the code reviews that helped me figure out some mestakes i
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **how can i use create api using this project ?**
+- **How can i use create api using this project ?**
 
   - Well creating An API in rails is done using some method as adding the --api when creating the app. 
 
