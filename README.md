@@ -209,13 +209,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **soulemanou kunchiefuh babanou**
 
-- GitHub: [@githubhandle](https://github.com/soulemanou-software)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/soulemanou-kunchiefuh-babanou)
+- GitHub: [@soulemanou-software](https://github.com/soulemanou-software)
+- Twitter: [@Mr_Babanou_237](https://twitter.com/Mr_Babanou_237)
+- LinkedIn: [LinkedI](https://linkedin.com/in/soulemanou-kunchiefuh-babanou)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
