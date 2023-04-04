@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Hello world one app</b></h3>
 
 </div>
 
@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [hello_world_one_app] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is a demo app that adds React to manage client-side of a Ruby-on-Rails application. The app display a random message to the user whenever they refresh the page from the rails servers using React components.
 
-**[your_project__name]** is a...
+**[hello_world_one_app]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,16 +73,19 @@ After you're finished please remove all the comments and instructions!
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>Language</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://ruby.org/">Ruby</a></li>
+    <li><a href="https://html.org/">Html</a></li>
+    <li><a href="https://css.org/">Css</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Framework</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://rubyonrails.com/">Ruby on rails</a></li>
   </ul>
 </details>
 
@@ -93,25 +96,24 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
+<details>
+<summary>Linters</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">Robocop</a></li>
+    <li><a href="https://www.postgresql.org/">Stylelint</a></li>
+  </ul>
+</details>
+<summary>Testing Library</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">Rspec</a></li>
+  </ul>
+</details>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+> Learn how things work under the hood with rails and react apps
+> generate random greetings
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,15 +145,17 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd hello_world_react_irb
+  git clone https://github.com/soulemanou-software/hello_world_react_irb.git
 ```
 --->
 
 ### Install
 
 Install this project with:
-
+ - gem install bundler
+ - bundle install
+ - npm install
 <!--
 Example command:
 
@@ -164,7 +168,9 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
-
+ - rails db:prepare
+ - rails db:seed
+ - ./bin/dev
 <!--
 Example command:
 
@@ -203,33 +209,14 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **soulemanou kunchiefuh babanou**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@soulemanou-software](https://github.com/soulemanou-software)
+- Twitter: [@Mr_Babanou_237](https://twitter.com/Mr_Babanou_237)
+- LinkedIn: [LinkedI](https://linkedin.com/in/soulemanou-kunchiefuh-babanou)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
