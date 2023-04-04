@@ -19,18 +19,12 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
-OPTIONAL SECTIONS:
-- FAQ
-
 After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  
-  <br/>
 
-  <h3><b>Hello world one app</b></h3>
+  <h2><b>RAILS_REACT WEB APPLICATION</b></h2>
 
 </div>
 
@@ -55,37 +49,36 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [hello_world_one_app] <a name="about-project"></a>
+# 📖 Rails_React <a name="about-project"></a>
 
-> This is a demo app that adds React to manage client-side of a Ruby-on-Rails application. The app display a random message to the user whenever they refresh the page from the rails servers using React components.
-
-**[hello_world_one_app]** is a...
+**RailsReact** is web app to display greetings from rails API with react as the front-end using webpack in one app
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> [Ruby on Rails](https://guides.rubyonrails.org/) (simplify as Rails) is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer and HTML, CSS and JavaScript for user interfacing.
+
+> [React](https://reactjs.org/) React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
+
+> [Webpack](https://webpack.js.org/concepts/) is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.
 
 <details>
-  <summary>Language</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://ruby.org/">Ruby</a></li>
-    <li><a href="https://html.org/">Html</a></li>
-    <li><a href="https://css.org/">Css</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Framework</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://rubyonrails.com/">Ruby on rails</a></li>
+    <li><a href="https://guides.rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
 
@@ -96,24 +89,24 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-<summary>Linters</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">Robocop</a></li>
-    <li><a href="https://www.postgresql.org/">Stylelint</a></li>
-  </ul>
-</details>
-<summary>Testing Library</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">Rspec</a></li>
-  </ul>
-</details>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Learn how things work under the hood with rails and react apps
-> generate random greetings
+> Key features of the application are
+
+- **Display of content from API**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo coming soon...](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +114,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> This project can be used by anyone for any good purpose.
 
 To get a local copy up and running, follow these steps.
 
@@ -129,67 +122,45 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- [Ruby and Rails on you operating system eg. for  Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04)
+- [Node.js](https://nodejs.dev/en/) installed
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
+- [PostgreSQL](https://www.postgresql.org/) database installed
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd hello_world_react_irb
   git clone https://github.com/soulemanou-software/hello_world_react_irb.git
 ```
---->
 
 ### Install
 
 Install this project with:
- - gem install bundler
- - bundle install
- - npm install
-<!--
-Example command:
 
 ```sh
-  cd my-project
-  gem install
+  cd hello-rails-react
+
+  bundle install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
- - rails db:prepare
- - rails db:seed
- - ./bin/dev
-<!--
-Example command:
 
 ```sh
-  rails server
+  ./bin/dev
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+  bin/rails rspec spec
 ```
---->
 
 ### Deployment
 
@@ -211,12 +182,21 @@ Example:
 
 👤 **soulemanou kunchiefuh babanou**
 
-- GitHub: [@soulemanou-software](https://github.com/soulemanou-software)
-- Twitter: [@Mr_Babanou_237](https://twitter.com/Mr_Babanou_237)
-- LinkedIn: [LinkedI](https://linkedin.com/in/soulemanou-kunchiefuh-babanou)
+- GitHub: [@githubhandle](https://github.com/soulemnou-software)
+- Twitter: [@twitterhandle](https://twitter.com/Mr_Babanou)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/soulemanou-kunchiefuh-babanou)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Coming Soon ...
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -224,7 +204,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/soulemanou-software/hello_world_react_irb/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,8 +212,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> This project is design by me to learn how to create a one app using react, please will you like to support me for the work i am trying to do.
-
+If you like this project buy me a [drink](.../.../)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,23 +222,21 @@ Feel free to check the [issues page](../../issues/).
 
 > Give credit to everyone who inspired your codebase.
 
-i will like to thanks the code reviews that helped me figure out some mestakes i am facing in this my work.
+We would like to thank [Microverse](https://www.microverse.org/) for inspiring this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Is Rails still relevant?**
 
-- **How can i use create api using this project ?**
+  - [Yes, Rails is still popular among developer](https://blog.railwaymen.org/is-ruby-on-rails-dead)
 
-  - Well creating An API in rails is done using some method as adding the --api when creating the app. 
+- **Is it easy to learn Ruby on Rails**
 
-- **How can i modify the front-end**
-
-  - To modify the front-end use the views because rails uses the MVC models to work with files an document ,so anything concerning the front-end is done in the view and as component in the javascript if needed.
+  - [It is very easy to learn compared to most of the programming languages](https://careerkarma.com/blog/why-learn-ruby-on-rails/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -267,8 +244,6 @@ i will like to thanks the code reviews that helped me figure out some mestakes i
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
