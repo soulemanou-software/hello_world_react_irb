@@ -232,9 +232,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> This project is design by me to learn how to create a one app using react, please will you like to support me for the work i am trying to do.
 
-If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,7 +243,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+i will like to thanks the code reviews that helped me figure out some mestakes i am facing in this my work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -254,13 +253,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **how can i use create api using this project ?**
 
-  - [Answer_1]
+  - Well creating An API in rails is done using some method as adding the --api when creating the app. 
 
-- **[Question_2]**
+- **How can i modify the front-end**
 
-  - [Answer_2]
+  - To modify the front-end use the views because rails uses the MVC models to work with files an document ,so anything concerning the front-end is done in the view and as component in the javascript if needed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
