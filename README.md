@@ -114,6 +114,9 @@ After you're finished please remove all the comments and instructions!
 
 > Learn how things work under the hood with rails and react apps
 > generate random greetings
+> Gerate some animation happy mode animation
+> generate random motivation talks
+> generate local time
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
