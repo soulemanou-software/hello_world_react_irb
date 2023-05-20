@@ -1,24 +1,278 @@
-# README
+<a name="readme-top"></a>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-Things you may want to cover:
+Modify this file to match your project and remove sections that don't apply.
 
-* Ruby version
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-* System dependencies
+OPTIONAL SECTIONS:
+- FAQ
 
-* Configuration
+After you're finished please remove all the comments and instructions!
+-->
 
-* Database creation
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  
+  <br/>
 
-* Database initialization
+  <h3><b>Hello world one app</b></h3>
 
-* How to run the test suite
+</div>
 
-* Services (job queues, cache servers, search engines, etc.)
+<!-- TABLE OF CONTENTS -->
 
-* Deployment instructions
+# 📗 Table of Contents
 
-* ...
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [hello_world_one_app] <a name="about-project"></a>
+
+> This is a demo app that adds React to manage client-side of a Ruby-on-Rails application. The app display a random message to the user whenever they refresh the page from the rails servers using React components.
+
+**[hello_world_one_app]** is a...
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Language</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://ruby.org/">Ruby</a></li>
+    <li><a href="https://html.org/">Html</a></li>
+    <li><a href="https://css.org/">Css</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Framework</summary>
+  <ul>
+    <li><a href="https://rubyonrails.com/">Ruby on rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Linters</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">Robocop</a></li>
+    <li><a href="https://www.postgresql.org/">Stylelint</a></li>
+  </ul>
+</details>
+<summary>Testing Library</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">Rspec</a></li>
+  </ul>
+</details>
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Learn how things work under the hood with rails and react apps
+> generate random greetings
+> Gerate some animation happy mode animation
+> generate random motivation talks
+> generate local time
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd hello_world_react_irb
+  git clone https://github.com/soulemanou-software/hello_world_react_irb.git
+```
+--->
+
+### Install
+
+Install this project with:
+ - gem install bundler
+ - bundle install
+ - npm install
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+ - rails db:prepare
+ - rails db:seed
+ - ./bin/dev
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **soulemanou kunchiefuh babanou**
+
+- GitHub: [@soulemanou-software](https://github.com/soulemanou-software)
+- Twitter: [@Mr_Babanou_237](https://twitter.com/Mr_Babanou_237)
+- LinkedIn: [LinkedI](https://linkedin.com/in/soulemanou-kunchiefuh-babanou)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
